@@ -1,0 +1,166 @@
+                        .body_index_img {
+                            background: url(../img/img-index.jpg) right top;
+                            background-size: cover;
+                        }
+                        
+                        .body_article_img {
+                            background: url(../img/img-article.jpeg);
+                            background-size: cover;
+                        }
+                        
+                        .body_catalog_img {
+                            background: url(../img/img-catalog.jpg);
+                            background-size: cover;
+                        }
+                        
+                        .body_contacts_img {
+                            background: url(../img/img-contact.jpg);
+                            background-size: cover;
+                        }
+                        
+                        .body_gallery_img {
+                            background: url(../pic/pic-pic.png);
+                            background-position: right bottom;
+                        }
+                        
+                        .body_reg_img {
+                            background: url(../img/img-reg.jpg);
+                            background-size: cover;
+                        }
+                        
+                        .body_nav_img {
+                            background: url(../img/nav.jpg);
+                            background-size: cover;
+                        }
+
+
+                        h1, h2 {
+                            text-align: center;
+                            color: black;
+                        }
+                        
+                         
+                        
+                        nav ul li {
+                            list-style-type: none;
+                            display: inline;
+                        }
+                        
+                        nav ul li a {
+                            border: 1px solid red;
+                            padding: 2px;
+                            text-decoration: none;
+                            color: red;
+                            font-size: 1em;
+                            font-style: italic;
+                            font-weight: bold;
+                            background-color: rgb(13, 221, 13);
+                        }
+                        
+                        a:hover {
+                            background: rgb(128, 126, 125);
+                            color: yellow;
+                        }
+                        
+                        .art_heading {
+                            color: orchid;
+                            font-family: Arial, Helvetica, sans-serif;
+                            text-decoration: none;
+                            border-bottom: 2px solid;
+                        }
+                        
+                        .paragraph_art {
+                            background: yellowgreen;
+                        }
+                        
+                        .art_heading_link {
+                            text-decoration: none;
+                            font-style: italic;
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        }
+                        
+                        .art_heading_link:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .art_heading_link_comment {
+                            color: grey;
+                        }
+                        
+                        .article_p p {
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 0.9em;
+                        }
+                        
+                        .article_p p::first-letter {
+                            font-family: "Times New Roman", Times, serif;
+                            font-size: 2em;
+                            color: red;
+                        }
+                        
+                        .test {
+                            font-size: 25px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            list-style: none;
+                            color: white;
+                        }
+                        
+                        .catalog_flowers ul {
+                            list-style: none;
+                            color: blue;
+                        }
+                        
+                        .catalog_flowers ul li::before {
+                            content: "❀";
+                            padding-right: 5px;
+                            color: red;
+                        }
+                        
+                        li.new::after {
+                            content: "new ";
+                            padding: 3px;
+                            color: black;
+                            background-color: #fc0;
+                            font-size: 90%;
+                        }
+                        
+                        .image {
+                            text-decoration: none;
+                            border: 3px solid #00af64;
+                        }
+
+                        .registration-form input[type="text"] {
+                            width: 200px;
+                        }
+                       
+                       .registration-form input[type="password"] {
+                            width: 300px;
+                        }
+
+                        .registration-form input[type="email"]:focus {
+                            color: #aaa077;
+                            font-family: Gothic, Arial, Helvetica, sans-serif;
+                        }
+
+                        .registration-form input[type="submit"]:activ {
+                            background-color: rgb(255, 0, 0);
+                        }
+
+                        .registration-form input[type="reset"]:activ {
+                            background-color: rgb(50, 5, 0);
+                        }
+
+                        .gender-rad-select label:hover,
+                        .cuisine-checkbox-sel label:hover {
+                            border: 1px dashed #f44444;
+                        }
+
+                        input[name="first_name"],
+                        input[name="second_name"],
+                        input[name="patronymic"] {
+                            text-transform: capitalize;
+                        }
+
+
+
+

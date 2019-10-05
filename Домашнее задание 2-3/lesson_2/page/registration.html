@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Регистрация</title>
+    <style>
+        html,
+        body {
+            height: 100%
+        }
+        
+        #holder {
+            min-height: 100%;
+            position: relative;
+        }
+        
+        #body {
+            padding-bottom: 100px;
+        }
+       
+        
+        #footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 10px;
+            background: #aa9d71;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+        
+        #footer_button {
+            color: black;
+        }
+    </style>
+
+</head>
+
+
+
+<body class="body_reg_img">
+    <div id="holder">
+        <div id="body">
+            <header>
+                <h1>Регистрация</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Главная страница</a></li>
+                        <li><a href="articles.html">Статьи</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="image_gallery.html">Галерея изображений</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <main>
+                <div>
+                    <div>
+                        <form class="registration-form" action="register.php" enctype="multipart/form-data" method="GET">
+                            <fieldset>
+                                <legend>Форма для регистрации</legend>
+                                <fieldset>
+                                    <legend>Персональные данные</legend>
+                                    <input type="text" name="first_name" placeholder="Имя">
+                                    <input type="text" name="second_name" placeholder="Фамилия">
+                                    <input type="text" name="patronymic" placeholder="Отчество">
+                                    <p>
+                                    <label for="birthday_date">Введите дату вашего рождения: </label>
+                                    <input type="date" name="birthday_date" id="birthday_date" value="2001-01-01" min="1900-01-01"></p>
+                                    <p><label for="select_foto">Загрузите файл с Вашей фотографией: </label>
+                                    <input type="file" name="avatar" accept="image/jpeg, image/png" id="select_foto">
+                                    </p>
+                                </fieldset>
+                                <fieldset class="gender-rad-select">
+                                    <legend>Выбор пола</legend>
+                                    <label for="gender-man">
+                                    <input type="radio" name="gender" value="man" id="gender-man"> Мужской
+                                    </label>
+                                    <label for="gender-women">
+                                    <input type="radio" name="gender" value="women" id="gender-women"> Женский
+                                    </label>
+                                     <label for="gender-other">
+                                    <input type="radio" name="gender" value="other" id="gender-other"> Другой
+                                    </label>
+                                </fieldset>  
+                                <fieldset>
+                                	<legend>Электронная почта и личный пароль</legend>
+                                	<input type="email" name="email-adress" placeholder="E-mail">
+                                    <input type="password" name="psw" placeholder="**********">
+                                </fieldset>  
+                                <fieldset>
+                                	<legend>Ваш сайт</legend>
+                                	<input type="url" name="homepage" value="http://mysite.com">
+                                </fieldset>
+                                <fieldset class="cuisine-checkbox-sel">
+                                    <legend>Ваши предпочтения</legend>
+                                    <p>Кухни мира на выбор (можно выбрать несколько): </p>
+                                    <label for="ukr"><input id="ukr" type="checkbox" name="cuisine1" value="ukr">Украинская</label>
+                                    <label for="tha"><input id="tha" type="checkbox" name="cuisine2" value="tha">Тайская</label>
+                                    <label for="ind"><input id="ind" type="checkbox" name="cuisine3" value="ind">Индийская</label>
+                                    <label for="jap"><input id="jap" type="checkbox" name="cuisine4" value="jap">Японская</label>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend>Дополнительная информация</legend>
+                                    <label for="about_txt">Расскажите немного о себе: </label>
+                                    <textarea name="txt" cols="70" rows="8" id="about_txt" placeholder="Добавьте немного о себе..." autocomplete="on"></textarea>
+                                </fieldset><br>
+                                <input type="submit" name="submit" value="Зарегистрироваться">
+                                <input type="reset" name="reset" value="Очистить форму">
+                            </fieldset>
+                            
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+
+        <footer>
+            <div id="footer"><a id="footer_button" href="text-nav.html">НАВИГАЦИЯ</a>
+                <div>&#169; Смородский Станислав</div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+
+
+</html>
