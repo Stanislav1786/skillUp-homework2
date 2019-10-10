@@ -32,18 +32,20 @@
                             background: url(../img/nav.jpg);
                             background-size: cover;
                         }
-
-
-                        h1, h2 {
+                        
+                        h1,
+                        h2 {
                             text-align: center;
                             color: black;
                         }
                         
-                         
+                        nav {
+                            text-align: center;
+                        }
                         
                         nav ul li {
                             list-style-type: none;
-                            display: inline;
+                            display: inline-block;
                         }
                         
                         nav ul li a {
@@ -57,7 +59,7 @@
                             background-color: rgb(13, 221, 13);
                         }
                         
-                        a:hover {
+                        nav ul li a:hover {
                             background: rgb(128, 126, 125);
                             color: yellow;
                         }
@@ -128,39 +130,35 @@
                             text-decoration: none;
                             border: 3px solid #00af64;
                         }
-
+                        
                         .registration-form input[type="text"] {
                             width: 200px;
                         }
-                       
-                       .registration-form input[type="password"] {
+                        
+                        .registration-form input[type="password"] {
                             width: 300px;
                         }
-
+                        
                         .registration-form input[type="email"]:focus {
                             color: #aaa077;
                             font-family: Gothic, Arial, Helvetica, sans-serif;
                         }
-
+                        
                         .registration-form input[type="submit"]:activ {
                             background-color: rgb(255, 0, 0);
                         }
-
+                        
                         .registration-form input[type="reset"]:activ {
                             background-color: rgb(50, 5, 0);
                         }
-
+                        
                         .gender-rad-select label:hover,
                         .cuisine-checkbox-sel label:hover {
                             border: 1px dashed #f44444;
                         }
-
+                        
                         input[name="first_name"],
                         input[name="second_name"],
                         input[name="patronymic"] {
                             text-transform: capitalize;
                         }
-
-
-
-
