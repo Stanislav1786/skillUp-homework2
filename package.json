@@ -1,0 +1,23 @@
+{
+  "name": "skillup-homework2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislav1786/skillUp-homework2.git"
+  },
+  "author": "Stanislav Smorodskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanislav1786/skillUp-homework2/issues"
+  },
+  "homepage": "https://github.com/Stanislav1786/skillUp-homework2#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0"
+  }
+}
